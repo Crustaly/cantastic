@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="donate.css">
+    <title>Donate</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md" id="mainNav">
+        <a href="index.html" class="navbar-brand">Can-tastic</a>
+        <button class=navbar-toggler data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="recipes.html" class="nav-link">Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="donate.html" class="nav-link">Donate</a>
+                </li>
+                <li class="nav-item">
+                    <a href="help.html" class="nav-link">Get Help</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </nav>
+    <img class="img-fluid" src="donar.png" alt="biigpic">
+
+    <div class="apple">
+        <form action="https://www.houstonfoodbank.org/">
+            <h3>Would you like to donate Cash, Time, or Cans?</h3>
+            <input type="checkbox" name="cash" id="coc">
+            <label for="cash">Cash</label><br>
+            <input type="checkbox" name="check" id="coc">
+            <label for="cash">Time</label><br>
+            <input type="checkbox" name="check" id="coc">
+            <label for="cash">Cans</label>
+            <h3>Location Information</h3>
+            <label for="zip">Enter your zipcode: </label>
+            <input type="text" id="zc" placeholder="e.g. 80085">
+            <h3>How many miles are you willing to travel?</h3>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+
+            <button>Find my local food bank!</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
